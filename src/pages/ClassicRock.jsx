@@ -20,6 +20,7 @@ function ClassicRock() {
 
 const StyledSection = styled.section`
   margin: 20px;
+  height: 30vh;
 
   h2 {
     margin-bottom: 30px;

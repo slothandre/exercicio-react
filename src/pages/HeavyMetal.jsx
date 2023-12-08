@@ -18,6 +18,7 @@ function HeavyMetal() {
 
 const StyledSection = styled.section`
   margin: 20px;
+  height: 30vh;
 
   h2,
   p {
