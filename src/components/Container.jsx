@@ -6,8 +6,7 @@ function Container({ children }) {
 
 const StyledContainer = styled.main`
   width: 90%;
-  margin: 1rem auto;
-  margin-top: 0;
+  margin: 0 auto;
   background-color: #fff;
   border: 5px solid #000;
 `;
