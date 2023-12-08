@@ -4,6 +4,7 @@ import Container from "./components/Container";
 import Home from "./pages/Home";
 import ClassicRock from "./pages/ClassicRock";
 import HeavyMetal from "./pages/HeavyMetal";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route Component={HeavyMetal} path="/heavy-metal" />
         </Routes>
       </Container>
+      <Footer />
     </BrowserRouter>
   );
 }
