@@ -11,7 +11,11 @@ function Header() {
 }
 
 const StyledHeader = styled.header`
-  margin: 50px;
+  width: 90%;
+  background-color: #fff;
+  margin: 1rem auto;
+  margin-bottom: 0;
+  padding: 30px;
   text-align: center;
 `;
 
