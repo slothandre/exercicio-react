@@ -1,12 +1,7 @@
 import styled from "styled-components";
 
 function Container({ children }) {
-  return (
-    <StyledContainer>
-      <h2>blabla</h2>
-      {children}
-    </StyledContainer>
-  );
+  return <StyledContainer>{children}</StyledContainer>;
 }
 
 const StyledContainer = styled.main`
